@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "platformusers",
+  "info": {
+    "singularName": "platformuser",
+    "pluralName": "platformusers",
+    "displayName": "platformuser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "unique": true
+    },
+    "password": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "usertype": {
+      "type": "string"
+    }
+  }
+}
